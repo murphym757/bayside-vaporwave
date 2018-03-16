@@ -1,0 +1,76 @@
+// Bayside Vaporwave Color Scheme
+$shamrock: #43DAAE;
+$pinkSherbet: #FE819D;
+$frostyWhite: #fdfdfd;
+$sandBrown: #d3cab8;
+$fontColor: black;
+body {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: url('../../../images/baysidewave.jpg') no-repeat center scroll;
+    background-color: $pinkSherbet;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: $frostyWhite;
+    text-align: center;
+}
+
+// post cards (list of posts)
+.card {
+    background-color: $shamrock;
+    border: 1.5px solid $frostyWhite;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+// Bootstrap Button Styling
+.btn-vaporwave {
+    color: $shamrock;
+    background-color: $pinkSherbet;
+    border-color: $shamrock;
+}
+
+.btn-vaporwave:hover,
+.btn-vaporwave:focus,
+.btn-vaporwave:active,
+.btn-vaporwave.active,
+.open .dropdown-toggle.btn-vaporwave {
+    color: $shamrock;
+    background-color: #FFFFFF;
+    border-color: $shamrock;
+}
+
+.btn-vaporwave:active,
+.btn-vaporwave.active,
+.open .dropdown-toggle.btn-vaporwave {
+    background-image: none;
+}
+
+.btn-vaporwave.disabled,
+.btn-vaporwave[disabled],
+fieldset[disabled] .btn-vaporwave,
+.btn-vaporwave.disabled:hover,
+.btn-vaporwave[disabled]:hover,
+fieldset[disabled] .btn-vaporwave:hover,
+.btn-vaporwave.disabled:focus,
+.btn-vaporwave[disabled]:focus,
+fieldset[disabled] .btn-vaporwave:focus,
+.btn-vaporwave.disabled:active,
+.btn-vaporwave[disabled]:active,
+fieldset[disabled] .btn-vaporwave:active,
+.btn-vaporwave.disabled.active,
+.btn-vaporwave[disabled].active,
+fieldset[disabled] .btn-vaporwave.active {
+    background-color: $pinkSherbet;
+    border-color: $shamrock;
+}
+
+.btn-vaporwave .badge {
+    color: $pinkSherbet;
+    background-color: $shamrock;
+}
