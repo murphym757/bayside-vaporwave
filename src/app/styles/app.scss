@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'VCR';
+    src: url('/fonts/VCR_OSD_MONO.ttf');
+    src: url('/fonts/VCR_OSD_MONO.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alien-Encounters-Bold-Italic';
+    src: url('/fonts/Alien-Encounters-Bold-Italic.ttf');
+    src: url('/fonts/Alien-Encounters-Bold-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alien-Encounters-Italic';
+    src: url('/fonts/Alien-Encounters-Italic.ttf');
+    src: url('/fonts/Alien-Encounters-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alien-Encounter-Solid-Italic';
+    src: url('/fonts/Alien-Encounters-Solid-Italic.ttf');
+    src: url('/fonts/Alien-Encounters-Solid-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alien-Encounters-Solid-Bold-Italic';
+    src: url('/fonts/Alien-Encounters-Solid-Bold-Italic.ttf');
+    src: url('/fonts/Alien-Encounters-Solid-Bold-Italic.ttf') format('truetype');
+}
+
 // Bayside Vaporwave Color Scheme
 $shamrock: #43DAAE;
 $pinkSherbet: #FE819D;
@@ -9,9 +39,7 @@ body {
     width: 100%;
     height: auto;
     text-align: center;
-    background: url('../../../images/baysidewave.jpg') no-repeat center scroll;
-    background-color: $pinkSherbet;
-    background-blend-mode: multiply;
+    background: url('/images/baysidewave.jpg') no-repeat center scroll;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -20,11 +48,25 @@ body {
     text-align: center;
 }
 
+.card-title {
+    font-family: 'Alien-Encounters-Italic';
+    text-shadow: 2px 2px $pinkSherbet;
+}
+.app-title {
+    font-family: 'Alien-Encounters-Italic';
+    text-shadow: 2px 2px $shamrock;
+}
+
+.card-explanation {
+    font-family: 'VCR';
+}
+
 // post cards (list of posts)
 .card {
     background-color: $shamrock;
     border: 1.5px solid $frostyWhite;
     position: relative;
+    opacity: 0.9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
