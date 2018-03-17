@@ -1,5 +1,9 @@
-var express = require('express');
-var app = express();
+const express = require('express'),
+      app = express(),
+      port = process.env.PORT || 3000;
 
 app.use(express.static(__dirname + './../../')); //serves the index.html
-app.listen(3000); //listens on port 3000 -> http://localhost:3000/
+
+app.listen(port, () => {
+    console.log('Server started on port ' + port)
+});
