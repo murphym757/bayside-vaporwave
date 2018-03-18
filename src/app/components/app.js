@@ -12,10 +12,13 @@ export default class App extends Component {
                 <div class="card">
                     <div class="card-block">
                         <h3 class="card-title">How Bayside Vaporwave Works:</h3>
-                        <p class="card-explanation span">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-vaporwave">Sign In</a>
+                        <p class="card-explanation span lead">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-vaporwave"><i class="fab fa-spotify"></i> Sign In</a>
                     </div>
                 </div>
+                <h5 class="address-line1 pt-3">COMING SOON TO BRICKELL CITY CENTRE</h5>
+                <h5 class="address-line2 lead">701 SOUTH MIAMI AVENUE</h5>
+                <h3 class="brickell-japanese lead">ブリッケル</h3>
                 <hr />
             <Footer />
         </div>;

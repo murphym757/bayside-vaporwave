@@ -52,6 +52,7 @@ body {
     font-family: 'Alien-Encounters-Italic';
     text-shadow: 2px 2px $pinkSherbet;
 }
+
 .app-title {
     font-family: 'Alien-Encounters-Italic';
     text-shadow: 2px 2px $shamrock;
@@ -59,6 +60,20 @@ body {
 
 .card-explanation {
     font-family: 'VCR';
+}
+
+// address (below card)
+.address-line1 {
+    text-shadow: 2px 2px $shamrock;
+}
+
+.address-line2 {
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+.brickell-japanese {
+    font-weight: 700;
 }
 
 // post cards (list of posts)
@@ -71,10 +86,15 @@ body {
 }
 
 // Bootstrap Button Styling
-.btn-vaporwave {
+.fa-spotify {
     color: $shamrock;
+}
+
+.btn-vaporwave {
+    color: $frostyWhite;
     background-color: $pinkSherbet;
     border-color: $shamrock;
+    font-family: 'Alien-Encounters-Bold-Italic';
 }
 
 .btn-vaporwave:hover,
@@ -82,7 +102,7 @@ body {
 .btn-vaporwave:active,
 .btn-vaporwave.active,
 .open .dropdown-toggle.btn-vaporwave {
-    color: $shamrock;
+    color: $pinkSherbet;
     background-color: #FFFFFF;
     border-color: $shamrock;
 }
