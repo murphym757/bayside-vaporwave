@@ -39,13 +39,10 @@ body {
     width: 100%;
     height: auto;
     text-align: center;
-    background: url('/images/baysidewave.jpg') no-repeat center scroll;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: $pinkSherbet;
+    background-size: 100px 100px;
+    background-image: linear-gradient(to right, $frostyWhite 0.5px, transparent 0.5px), linear-gradient(to bottom, $frostyWhite 0.5px, transparent 0.5px);
     color: $frostyWhite;
-    text-align: center;
 }
 
 .card-title {
