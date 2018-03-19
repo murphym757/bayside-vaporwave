@@ -50,7 +50,7 @@ export default class App extends Component {
                 <div class="card">
                     <div class="card-block">
                         <h3 class="card-title">How Bayside Vaporwave Works:</h3>
-                        <p class="card-explanation span lead">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-explanation span lead">With supporting text below as a natural lead-in to content.</p>
                         { this.state.loggedIn === true  ? <div>
                             <h3 class="artist-name"> Now Playing: {this.state.nowPlaying.name}</h3>
                             <img src={this.state.nowPlaying.image} width="200" />
