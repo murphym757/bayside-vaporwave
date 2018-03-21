@@ -59,6 +59,13 @@ body {
     font-family: 'VCR';
 }
 
+.release-date,
+.track-name,
+.album-name {
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
 // address (below card)
 .address-line1 {
     text-shadow: 2px 2px $shamrock;
