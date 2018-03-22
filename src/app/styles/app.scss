@@ -50,6 +50,40 @@ body {
     text-shadow: 2px 2px $pinkSherbet;
 }
 
+.fa-backward,
+.fa-play,
+.fa-forward {
+    color: $pinkSherbet;
+}
+
+.album-link {
+    color: $pinkSherbet;
+}
+
+.album-link:hover,
+.album-link:focus,
+.album-link:active,
+.album-link.active {
+    color: $frostyWhite;
+}
+
+// Media Player Buttons
+.fa-backward:hover,
+.fa-backward:focus,
+.fa-backward:active,
+.fa-backward.active,
+.fa-play:hover,
+.fa-play:focus,
+.fa-play:active,
+.fa-play.active,
+.fa-forward:hover,
+.fa-forward:focus,
+.fa-forward:active,
+.fa-forward.active,
+{
+    color: $frostyWhite;
+}
+
 .app-title {
     font-family: 'Alien-Encounters-Italic';
     text-shadow: 2px 2px $shamrock;
