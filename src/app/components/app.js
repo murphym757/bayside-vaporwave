@@ -5,7 +5,6 @@ import github2 from '../../../images/github2.png';
 import baysidewave from '../../../images/baysidewave.jpg';
 import logo from '../../../images/BVVLogo.svg';
 
-
 export default class App extends Component {
     render() {
         return <div>

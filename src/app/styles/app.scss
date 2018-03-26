@@ -50,37 +50,19 @@ body {
     text-shadow: 2px 2px $pinkSherbet;
 }
 
-.fa-backward,
-.fa-play,
-.fa-forward {
-    color: $pinkSherbet;
-}
-
-.album-link {
+.album-link,
+.track-link {
     color: $pinkSherbet;
 }
 
 .album-link:hover,
 .album-link:focus,
 .album-link:active,
-.album-link.active {
-    color: $frostyWhite;
-}
-
-// Media Player Buttons
-.fa-backward:hover,
-.fa-backward:focus,
-.fa-backward:active,
-.fa-backward.active,
-.fa-play:hover,
-.fa-play:focus,
-.fa-play:active,
-.fa-play.active,
-.fa-forward:hover,
-.fa-forward:focus,
-.fa-forward:active,
-.fa-forward.active,
-{
+.album-link.active,
+.track-link:hover,
+.track-link:focus,
+.track-link:active,
+.track-link.active {
     color: $frostyWhite;
 }
 
@@ -95,7 +77,8 @@ body {
 
 .release-date,
 .track-name,
-.album-name {
+.album-name,
+.track-popularity {
     font-style: italic;
     letter-spacing: 5px;
 }

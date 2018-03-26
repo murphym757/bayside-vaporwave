@@ -6,7 +6,7 @@ var port = process.env.PORT || 3000;
 
 var client_id = '410514e7b1a64209812000c5ded114bf'; // Your client id
 var client_secret = '61cf71ab5f1844168ad4b132ad0f83cd'; // Your secret
-var redirect_uri = 'https://bayside-vaporwave.herokuapp.com/callback'; // Your redirect uri
+var redirect_uri = 'http://localhost:3000/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
@@ -94,7 +94,7 @@ app.get('/callback', function (req, res) {
                 });
 
                 // we can also pass the token to the browser to make requests from there
-                res.redirect('https://bayside-vaporwave.herokuapp.com/#' +
+                res.redirect('http://localhost:3000/#' +
                     querystring.stringify({
                         access_token: access_token,
                         refresh_token: refresh_token
