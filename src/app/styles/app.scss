@@ -45,12 +45,17 @@ body {
     color: $frostyWhite;
 }
 
+li {
+    text-align: left;
+}
+
 .card-title {
     font-family: 'Alien-Encounters-Italic';
     text-shadow: 2px 2px $pinkSherbet;
 }
 
 .album-link,
+.artists-link,
 .track-link {
     color: $pinkSherbet;
 }
@@ -59,6 +64,10 @@ body {
 .album-link:focus,
 .album-link:active,
 .album-link.active,
+.artists-link:hover,
+.artists-link:focus,
+.artists-link:active,
+.artists-link.active,
 .track-link:hover,
 .track-link:focus,
 .track-link:active,
@@ -71,13 +80,15 @@ body {
     text-shadow: 2px 2px $shamrock;
 }
 
-.card-explanation {
+.card-explanation,
+.refresh-help {
     font-family: 'VCR';
 }
 
 .release-date,
 .track-name,
 .album-name,
+.artists-name,
 .track-popularity {
     font-style: italic;
     letter-spacing: 5px;
@@ -106,9 +117,25 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.playlistLogo:hover {
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 0.5s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.card-block {
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 0.5s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+}
+
 // Bootstrap Button Styling
 .fa-spotify {
-    color: $shamrock;
+    color: $frostyWhite;
 }
 
 .btn-vaporwave {
@@ -124,8 +151,8 @@ body {
 .btn-vaporwave.active,
 .open .dropdown-toggle.btn-vaporwave {
     color: $pinkSherbet;
-    background-color: #FFFFFF;
-    border-color: $shamrock;
+    background-color: $shamrock;
+    border-color: $pinkSherbet;
 }
 
 .btn-vaporwave:active,
