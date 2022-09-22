@@ -1,6 +1,10 @@
 {
   "name": "bayside-vaporwave",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.19.2"
+  },
   "description": "\"An React app using the Spotify API\"",
   "main": "index.js",
   "cleanSrc": "rimraf dist/src",
