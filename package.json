@@ -5,6 +5,7 @@
     "node": "16.13.0",
     "npm": "8.19.2"
   },
+  "stack": "heroku-22",
   "description": "\"An React app using the Spotify API\"",
   "main": "index.js",
   "cleanSrc": "rimraf dist/src",
